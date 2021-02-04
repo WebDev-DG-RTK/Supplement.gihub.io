@@ -571,5 +571,12 @@ p.copy-right a:hover {
     margin: 5px 5px;
 }
 
+.agile_newsletter_footer {
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+    padding: 1em 0;
+    margin-top: 3em;
+}
+
 
 /*-- //footer --*/
