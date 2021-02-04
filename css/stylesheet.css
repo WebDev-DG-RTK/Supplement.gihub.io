@@ -369,4 +369,81 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
 .footer-bottom a {}
 
 
-/* pop-up text
+/* pop-up text*/
+
+
+/*-- footer --*/
+
+.footer {
+    padding: 4em o;
+    background: #000;
+}
+
+.footer_agile_inner_info_w3l {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul.social-nav.model-3d-0.footer-social.w3_agile_social.two {
+    float: none;
+}
+
+.footer-left p {
+    color: #737070;
+    line-height: 2em;
+    font-size: 14px;
+    margin-top: 22px;
+    /* TODO reduce line spacing to 1px if needed */
+    letter-spacing: 2px;
+}
+
+.newsright input[type="email"] {
+    outline: none;
+    width: 100%;
+    padding: 10px 14px;
+    color: #848484;
+    font-size: 14px;
+    border: 1px solid #3a3939;
+    width: 74%;
+    letter-spacing: 3px;
+    background: #1f1f1f;
+}
+
+.newsright input[type="submit"] {
+    border: none;
+    padding: 10px 20px 11px;
+    font-size: 15px;
+    background: #2fdab8;
+    text-transform: uppercase;
+    margin: 0 0 0 -4px;
+    outline: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 4%;
+}
+
+.newsright input[type="submit"]:hover {
+    background: #fff;
+    color: black;
+}
+
+.newsleft h3 {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+p.copy-right {
+    color: #848484;
+    text-align: center;
+    margin-top: 62px;
+    font-size: 14px;
+}
+
+p.copy-right a {
+    color: #fff;
+    text-decoration: none;
+}
