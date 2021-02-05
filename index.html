@@ -17,6 +17,8 @@
         }
     </script>
     <!--//tags -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/slideshow.css">
     <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/css/font-awesome.css" rel="stylesheet">
@@ -26,6 +28,8 @@
     <!-- //for bootstrap working -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
+
+
 </head>
 
 <body>
@@ -90,6 +94,70 @@
         </div>
     </div>
     <!-- //header-bot -->
+
+    <!-- **Slideshow** -->
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/banner1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/banner2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/banner3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/banner4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/banner5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/banner1.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/banner1.jpg" style="width:100%" onclick="currentSlide(1)" alt="image01">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/banner2.jpg" style="width:100%" onclick="currentSlide(2)" alt="image02">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/banner3.jpg" style="width:100%" onclick="currentSlide(3)" alt="image03">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/banner4.jpg" style="width:100%" onclick="currentSlide(4)" alt="image04">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/banner5.jpg" style="width:100%" onclick="currentSlide(5)" alt="image05">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/banner1.jpg" style="width:100%" onclick="currentSlide(6)" alt="image06">
+            </div>
+        </div>
+    </div>
+    <!-- //slideshow -->
+
+
     <!-- **Main Body By Ritik...** -->
     <div class="categories">
         <div class="small-container">
@@ -245,6 +313,8 @@
             </div>
         </div>
     </div>
+
+    <!-- //Main Body By Ritik -->
     <!-- footer -->
     <div class="footer">
         <div class="footer_agile_inner_info_w3l">
@@ -384,7 +454,7 @@
     <!-- //footer -->
 
 
-
+    <script src="js/slideshow.js"></script>
     <script src="https://kit.fontawesome.com/aade31b1f1.js" crossorigin="anonymous"></script>
 </body>
 
