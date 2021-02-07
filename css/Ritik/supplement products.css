@@ -43,6 +43,7 @@
 }
 
 .featured {
+    border-top: 1px solid #918d8d;
     text-align: center;
     margin: 0 auto 80px;
     position: relative;
